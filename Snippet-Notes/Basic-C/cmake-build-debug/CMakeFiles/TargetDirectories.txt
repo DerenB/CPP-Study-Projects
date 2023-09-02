@@ -1,0 +1,3 @@
+/Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/Basic-C/cmake-build-debug/CMakeFiles/Basic_C.dir
+/Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/Basic-C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/Basic-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/cpp-Classes/cmake-build-debug/CMakeFiles/cpp_Classes.dir
+/Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/cpp-Classes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/cpp-Classes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
