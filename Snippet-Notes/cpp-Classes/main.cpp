@@ -4,6 +4,8 @@ using std::string;
 using std::cout;
 using std::endl;
 
+
+
 class Employee {
 public:
     string firstName;
@@ -18,6 +20,7 @@ public:
 };
 
 int main() {
+
     Employee person1 = {
         "John",
         "Doe",
