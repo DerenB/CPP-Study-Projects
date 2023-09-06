@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
+#include <vector>
+
 using std::string;
+using std::vector;
 using std::cout;
 using std::endl;
-
-
 
 class Employee {
 public:
@@ -19,6 +20,32 @@ public:
     }
 };
 
+// Using TypeDef
+class TypeDefExample {
+    // Creates a type of identifier
+    // End identifier name with "_t"
+    typedef std::vector<std::pair<std::string, int>> pairlist_t;
+    typedef std::string text_t;
+    // Using is more popular than typedef
+    using number_t = int;
+
+    number_t exampleNum = 1;
+};
+
+// Using Vectors
+class VectorExample {
+    vector <int> test_scores {100,95,99,87,88};
+
+public:
+    void VectorExampleOutput() {
+        // Array Access version
+        cout << test_scores[1] << endl;
+
+        // Vector Example
+        cout << test_scores.at(1) << endl;
+    }
+};
+
 int main() {
 
     Employee person1 = {
@@ -28,6 +55,8 @@ int main() {
     };
 
     person1.IntroduceYourself();
-    cout << "Hello, World!" << endl;
+
+    VectorExample().VectorExampleOutput();
+    
     return 0;
 }

@@ -55,12 +55,6 @@ build CMakeFiles/cpp_Classes.dir/main.cpp.o: CXX_COMPILER__cpp_Classes_Debug /Us
   OBJECT_DIR = CMakeFiles/cpp_Classes.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_Classes.dir
 
-build CMakeFiles/cpp_Classes.dir/UsingTypeDef.cpp.o: CXX_COMPILER__cpp_Classes_Debug /Users/deren/Documents/LocalGitCopy/CPP-Study-Projects/Snippet-Notes/cpp-Classes/UsingTypeDef.cpp || cmake_object_order_depends_target_cpp_Classes
-  DEP_FILE = CMakeFiles/cpp_Classes.dir/UsingTypeDef.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
-  OBJECT_DIR = CMakeFiles/cpp_Classes.dir
-  OBJECT_FILE_DIR = CMakeFiles/cpp_Classes.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_Classes
@@ -69,7 +63,7 @@ build CMakeFiles/cpp_Classes.dir/UsingTypeDef.cpp.o: CXX_COMPILER__cpp_Classes_D
 #############################################
 # Link the executable cpp_Classes
 
-build cpp_Classes: CXX_EXECUTABLE_LINKER__cpp_Classes_Debug CMakeFiles/cpp_Classes.dir/main.cpp.o CMakeFiles/cpp_Classes.dir/UsingTypeDef.cpp.o
+build cpp_Classes: CXX_EXECUTABLE_LINKER__cpp_Classes_Debug CMakeFiles/cpp_Classes.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/cpp_Classes.dir
   POST_BUILD = :
