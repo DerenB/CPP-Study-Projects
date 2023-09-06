@@ -39,10 +39,14 @@ class VectorExample {
 public:
     void VectorExampleOutput() {
         // Array Access version
+        // Does not bound check
         cout << test_scores[1] << endl;
 
         // Vector Example
-        cout << test_scores.at(1) << endl;
+        cout << test_scores.at(2) << endl;
+
+        // Add element to end of vector
+        test_scores.push_back(75);
     }
 };
 
@@ -57,6 +61,6 @@ int main() {
     person1.IntroduceYourself();
 
     VectorExample().VectorExampleOutput();
-    
+
     return 0;
 }
